@@ -4,12 +4,12 @@ library(shinyWidgets)
 library(bslib)
 library(thematic)
 library(rsconnect)
-library(rsconnect)
+library(here)
 rsconnect::setAccountInfo(name='sean-c-smith',
                           token='A92116A87A16764F6918175003C0B296',
                           secret='PZSTggvdLfJD5+TveDh+h8g7Wa5ZC3lb5hftsXNJ')
 
-rsconnect::deployApp("games_sales_shiny.R")
+rsconnect::deployApp()
 
 
 games_sales <- CodeClanData::game_sales
