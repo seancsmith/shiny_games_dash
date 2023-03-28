@@ -9,7 +9,7 @@ rsconnect::setAccountInfo(name='sean-c-smith',
                           token='A92116A87A16764F6918175003C0B296',
                           secret='PZSTggvdLfJD5+TveDh+h8g7Wa5ZC3lb5hftsXNJ')
 
-rsconnect::deployApp("")
+rsconnect::deployApp("games_sales_shiny.R")
 
 
 games_sales <- CodeClanData::game_sales
