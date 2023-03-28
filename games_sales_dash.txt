@@ -1,0 +1,5 @@
+games_sales_shiny
+
+I thought it would be interesting to create an average rating based on the user and critic score. I wanted to then let the user compare games on different platforms, and also choose between the user_score, critic_score and user_critic_avg.I then thought it would be fun to use a slider to let the user choose the number of games on show. 
+
+I chose an ordered, flipped bar chart to show this comparison with a label on the top value stating what the rating is. I also added the data in another tab to let the user get a closer look at the data.
