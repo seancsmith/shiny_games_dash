@@ -1,12 +1,12 @@
 ui <- fluidPage(
-  #theme = bs_theme(bootswatch = "darkly"),
+  theme = bs_theme(bootswatch = "journal"),
   
   # Add a nintendo theme
-   theme = bs_theme(
-     base_font=font_google("Press Start 2P"),
-     bg="#e7e6e1", fg="#9e252a") %>%
-  #   bs_add_rules('@import"https://unpkg.com/nes.css@latest/css/nes.min.css"'),
-   thematic::thematic_shiny(font="auto"),
+   # theme = bs_theme(
+   #   base_font = sass::font_google("Press Start 2P"),
+   #   bg="#e7e6e1", fg = "#9e252a") %>%
+   # bs_add_rules('@import"https://unpkg.com/nes.css@latest/css/nes.min.css"'),
+   # thematic::thematic_shiny(font = "auto"),
   
   # Add a title and sidebar
   titlePanel(tags$h3(tags$b("Best Games by Platform"))),
