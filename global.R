@@ -6,6 +6,12 @@ library(thematic)
 library(here)
 library(rsconnect)
 
+# rsconnect::setAccountInfo(name='sean-c-smith',
+#                           token='A92116A87A16764F6918175003C0B296',
+#                           secret='PZSTggvdLfJD5+TveDh+h8g7Wa5ZC3lb5hftsXNJ')
+# 
+# rsconnect::deployApp(here("../shiny_games_dash/"))
+
 games_sales <- CodeClanData::game_sales
 
 # Create the user_critic_avg and pivot the table so these can
