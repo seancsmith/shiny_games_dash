@@ -1,5 +1,5 @@
 ui <- fluidPage(
-  theme = bs_theme(bootswatch = "journal"),
+  theme = bs_theme(bootswatch = "lumen"),
   
   # Add a nintendo theme
    # theme = bs_theme(
